@@ -1,4 +1,6 @@
 # Binaries for programs and plugins
+/build/
+/pkged.go
 *.exe
 *.exe~
 *.dll
@@ -11,9 +13,15 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Dependency directories
+vendor/
+
+# OS files
 .DS_Store
+
+# Config / environment
 config.toml
+*.db
+
+# IDE
 .idea/
-/build/
